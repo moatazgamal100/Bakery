@@ -1,0 +1,57 @@
+header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+/* .logo{
+    width: 100px;
+} */
+.lis{
+   
+    width: 35px;
+    height: 35px;
+}
+ p {
+    font-size: 15;
+    word-spacing: -1.5px;
+    line-height: 2.5; /* This will set the line spacing to 1.5 times the font size */
+  }
+
+  #baking p{
+    line-height: 1.5;
+  }
+  .ico{
+    width: 30px;
+    height: 30px;
+  }
+  iframe{
+    max-width: 100%;
+  }
+  #Footer{
+    background-color: #403d38;
+    color: #ffffff;
+  }
+  #Footer p{
+    font-size: 16px;
+  }
+  #Footer li{
+    position: relative;
+  }
+  #Footer li::after{
+    content: "";
+    width:100%;
+    height: 2px;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #end{
+    background-color: rgb(0, 0, 0, .8);
+    color: white;
+  }
+  #end i{
+    font-size: 25px;
+  }
